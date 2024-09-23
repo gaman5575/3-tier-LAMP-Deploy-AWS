@@ -1,6 +1,1 @@
-# lamp-project
-# lamp-project
-# lamp-project
-# LAMP-Project
-# 3-tier-LAMP-Deploy-AWS
-# 3-tier-LAMP-Deploy-AWS
+![maxresdefault](https://github.com/user-attachments/assets/06de6071-15e8-4ad3-ab49-80621d2d96ea)
