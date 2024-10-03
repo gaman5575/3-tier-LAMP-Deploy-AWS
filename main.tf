@@ -1,7 +1,7 @@
 #Provider Configuration
 provider "aws" {
   region = "us-east-1"
- enable_dns_hostnames = true
+ 
 }
 
 # VPC Creation
@@ -9,6 +9,7 @@ provider "aws" {
 resource "aws_vpc" "vpc-lamp" {
   cidr_block       = "192.168.0.0/16"
   instance_tenancy = "default"
+enable_dns_hostnames = true
   tags = {
     Name = "LAMP-VPC"
   }
