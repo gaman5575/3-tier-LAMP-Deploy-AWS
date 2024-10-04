@@ -11,6 +11,6 @@ resource "aws_instance" "web_servers" {
   user_data = "${file("${path.module}/service.sh")}"
 
   tags = {
-    Name = "var.Name"
+    Name = var.Name
   }
 }
